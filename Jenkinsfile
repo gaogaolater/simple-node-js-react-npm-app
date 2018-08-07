@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'npm -v'
+                sh 'pwd && npm -v'
             }
         }
     }
